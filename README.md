@@ -11,3 +11,10 @@ Os adjunto la demo para que veaís fácilmente como funciona la app. No inspecci
 4. No os preocupéis por las animaciones de la demo, no hay por qué implementarlas en una primera instancia!
 
 ## Pregunta 1: Describe con lenguaje natural que tiene que hacer la app.
+
+1. El ususario debe poner su fecha de nacimiento
+2. Si el usuario pone más caracteres de lo válidos o una fecha fuera de rango sale un mensaje de error
+3. El botón coge la fecha ingresada 
+4. se calcula la edad
+5. e
+El programa dice cuántos años, meses y días tiene el usuario
