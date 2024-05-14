@@ -29,26 +29,26 @@
     <div class="calculator__container">
       <div class="calculator__user-input">
         <div class="calculator__input-blok input-blok">
-          <p class="input-blok__text">Day</p>
+          <p id= 'pDay'class="input-blok__text">Day</p>
           <input class="input-blok__input input-days" type="number" placeholder="DD" min="1">
-          <p class="input-blok__text-error">text error</p>
+          <p id='dayError' class="input-blok__text-error">text error</p>
         </div>
         <div class="calculator__input-blok input-blok">
-          <p class="input-blok__text">Month</p>
+          <p id = 'pMonth' class="input-blok__text">Month</p>
           <input class="input-blok__input input-months" type="number" placeholder="MM" min="1">
-          <p class="input-blok__text-error">text error</p>
+          <p id='monthError' class="input-blok__text-error">text error</p>
         </div>
         <div class="calculator__input-blok input-blok">
-          <p class="input-blok__text">Year</p>
+          <p id='pYear' class="input-blok__text">Year</p>
           <input class="input-blok__input input-years" type="number" placeholder="YYYY" min="1">
-          <p class="input-blok__text-error">text error</p>
+          <p id='yearError'class="input-blok__text-error">text error</p>
         </div>
         <button class="calculator__user-input-btn"></button>
       </div>
       <div class="calculator__output output">
-        <div class="output__text output-years"><span>- -</span>years</div>
-        <div class="output__text output-months"><span>- -</span>months</div>
-        <div class="output__text output-days"><span>- -</span>days</div>
+        <div class="output__text output-years"><span id="yearText">- -</span>years</div>
+        <div class="output__text output-months"><span id ='monthText'>- -</span >months</div>
+        <div class="output__text output-days"><span id="dayText">- -</span>days</div>
       </div>
     </div>
   </main>
